@@ -1,0 +1,136 @@
+* {
+	box-sizing : border-box;
+}
+
+html,
+body {
+	margin : 0;
+    padding : 0;
+    background-color: black;
+    height: 100%;
+}
+
+html, body, .viewport {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+
+  #root {
+    margin : 0;
+    padding : 0;
+    background-color: black;
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+    min-height: 100%;
+	display: flex;
+	flex-direction: row;
+    
+} 
+
+.Main {
+    display: flex;
+    background-color: blue;
+    flex-shrink: 0;
+    flex: 1;
+	flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    height : 5em;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.Brains {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+    height : 6em;
+    border: 1px solid #000;
+}
+
+.Hits {
+    width: 23.07%;
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+    align-self: flex-start;
+    height : 6em;
+    border: 1px solid #000;
+}
+
+.Library {
+    display: flex;
+    background-color: yellow;
+    justify-content: space-around;
+    height : 6em;
+    border: 1px solid #000;
+}
+
+.Game {
+    background-color: red;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.GamePlayer {
+    display: flex;
+    height : 5em;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.GameDices {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.GameActions {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    height : 8em;
+    border: 1px solid #000;
+}
+
+
+
+.DiceSpace {
+    display: flex;
+    background-color: white;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Dice {
+    display: flex;
+    flex-basis: 50px;
+    height: 50px;
+    /*border: 1px dashed #000;*/
+    background-color: blue;
+
+  }
+  
+  .Ranking {
+    flex-basis: 25em;
+    height: 100%;
+    background-color: yellow;
+    flex-shrink: 0;
+}
+
+ 

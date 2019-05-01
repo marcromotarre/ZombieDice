@@ -1,6 +1,6 @@
 import React from "react";
 
-class Header extends React.Component {
+class GameActions extends React.Component {
   constructor(props) {
     super(props);
 
@@ -9,11 +9,11 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div className="Header">
-        <h1 className ="title">Zombie Dice</h1>
+      <div className="GameActions">
+       
       </div>
     );
   }
 }
 
-export default Header;
+export default GameActions;

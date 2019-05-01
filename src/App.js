@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./Header";
+import Main from "./Main";
+import Ranking from "./Ranking";
 
 class App extends React.Component {
   constructor(props) {
@@ -11,10 +12,9 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <header />
-        <Header />
-        <p>This is your new project</p>
+      <div className="App">
+        <Main />
+        <Ranking />
       </div>
     );
   }
